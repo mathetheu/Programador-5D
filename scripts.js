@@ -64,7 +64,8 @@ function recarregarTarefas() {
     let minhasTarefas = localStorage.getItem("lista")
     
     arrayDeTarefas = JSON.parse(minhasTarefas)
-
+    
+    if(minhasTarefas)
 
     mostrarTarefas()
 }
